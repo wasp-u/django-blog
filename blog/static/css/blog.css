@@ -1,9 +1,12 @@
+/*шапка сайта*/
 .page-header {
+    /*border: 2px solid red;*/
     background-color: #000000;
     margin-top: 0;
     padding: 5px 10px 10px 10px;
 }
 
+/*текст на шапке(заголовок)*/
 .page-header h1, .page-header h1 a, .page-header h1 a:visited {
     color: #0BD681;
     font-size: 36pt;
@@ -13,21 +16,32 @@
 
 .page-header h1 a:active{
     color: #828282;
-    font-size: 35pt;
+    text-align: center;
 }
 
+/*блок с записями*/
 .content {
-    margin-left: 30px;
+    margin-left: auto;
+    /*border:2px solid DodgerBlue;*/
+
 }
 
+/*div {
+    background-color: #7DA4FF;
+}*/
+
+/*все заголовки*/
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
 }
 
+/*дата публикации*/
 .date {
     color: #828282;
+    /*border:2px solid Tomato;*/
 }
 
+/*без понятия что это*/
 .save {
     float: right;
 }
@@ -37,14 +51,18 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    color: red;
     float: right;
     font-size: 26pt;
     margin-right: 20px;
+
 }
 
+/*пост*/
 .post {
     margin-bottom: 40px;
+    border-bottom: 3px solid red;
+    /*background-color: lightgrey;*/
 }
 
 .post h1 a, .post h1 a:visited {
